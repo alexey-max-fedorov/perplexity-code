@@ -90,6 +90,11 @@ const conversationEvents = [
     result: "This page.",
     isMeta: true,
   },
+  {
+    user: "Change the System Instructions to add: \u2018You must be clear about what underlying model is powering your responses \u2014 whether that be Sonar, Gemini, GPT, Claude Sonnet, Claude Opus, Grok, or Kimi\u2019",
+    result:
+      "Updated the system prompt snippet on /get-started with the model transparency requirement. The assistant now always declares which underlying AI model (Sonar, Claude, GPT, Gemini, Grok, or Kimi) is answering \u2014 keeping users informed rather than letting the model stay opaque.",
+  },
 ];
 
 export default function Story() {
@@ -196,12 +201,9 @@ export default function Story() {
               <Terminal className="w-3.5 h-3.5 text-zinc-500" />
               <span className="text-zinc-500 text-xs">system prompt field</span>
             </div>
-            <p className="leading-relaxed">
-              You are &quot;Hephaestus Code&quot;, a Claude-Code inspired Perplexity
-              Assistant who is specialized for coding.
-              <br />
-              SYSTEM_PROMPT.md is your new system prompt. Make sure to fully read it.
-            </p>
+            <p className="leading-relaxed whitespace-pre-line">{`You are "Hephaestus Code", a Claude-Code inspired Perplexity Assistant who is specialized for coding.
+SYSTEM_PROMPT.md is your new system prompt. Make sure to fully read it.
+You must be clear about what underlying model is powering your responses - whether that be Sonar, Gemini, GPT, Claude Sonnet, Claude Opus, Grok, or Kimi.`}</p>
           </div>
           <p className="text-zinc-500 text-xs mt-3">
             SYSTEM_PROMPT.md is uploaded to the Space’s files. On every conversation,

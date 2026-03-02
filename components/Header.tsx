@@ -22,6 +22,7 @@ export default function Header() {
         <div className="flex items-center gap-6">
           <div className="hidden md:flex items-center gap-6 text-sm font-medium text-zinc-400">
             <Link href="/story" className="hover:text-white transition-colors">Story</Link>
+            <Link href="/get-started" className="hover:text-white transition-colors">Docs</Link>
             <a
               href="https://github.com/alexey-max-fedorov/hephaestus-code"
               target="_blank"
@@ -51,6 +52,7 @@ export default function Header() {
       {isMenuOpen && (
         <div className="md:hidden absolute top-20 left-0 w-full bg-[#0D0F14] border-b border-white/5 p-6 flex flex-col gap-6">
           <Link href="/story" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium text-zinc-400 hover:text-white">Story</Link>
+          <Link href="/get-started" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium text-zinc-400 hover:text-white">Docs</Link>
           <a
             href="https://github.com/alexey-max-fedorov/hephaestus-code"
             target="_blank"
@@ -60,9 +62,6 @@ export default function Header() {
           >
             GitHub
           </a>
-          <Link href="/get-started" onClick={() => setIsMenuOpen(false)}>
-            <span className="text-lg font-medium text-zinc-400 hover:text-white">Get Started</span>
-          </Link>
           <a
             href={DEMO_URL}
             target="_blank"

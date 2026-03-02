@@ -107,12 +107,9 @@ export default function GetStarted() {
                       <Terminal className="w-3.5 h-3.5 text-zinc-500" />
                       <span className="text-zinc-500 text-xs">system prompt</span>
                     </div>
-                    <p className="leading-relaxed">
-                      You are &quot;Hephaestus Code&quot;, a Claude-Code inspired Perplexity
-                      Assistant who is specialized for coding.
-                      <br />
-                      SYSTEM_PROMPT.md is your new system prompt. Make sure to fully read it.
-                    </p>
+                    <p className="leading-relaxed whitespace-pre-line">{`You are "Hephaestus Code", a Claude-Code inspired Perplexity Assistant who is specialized for coding.
+SYSTEM_PROMPT.md is your new system prompt. Make sure to fully read it.
+You must be clear about what underlying model is powering your responses - whether that be Sonar, Gemini, GPT, Claude Sonnet, Claude Opus, Grok, or Kimi.`}</p>
                   </div>
                   <p className="text-zinc-500 text-xs mt-3">Save your changes after pasting.</p>
                 </div>
@@ -149,7 +146,6 @@ export default function GetStarted() {
           <div>
             <p className="font-semibold text-[#4ADE80]">That’s it — your Space is ready.</p>
             <p className="text-zinc-400 text-sm mt-0.5">Start a conversation in your Space to use Hephaestus Code.</p>
-            <p className="text-zinc-400 text-sm mt-0.5">Select <b>Claude Sonnet 4.6 Thinking</b> for the Model.</p>
           </div>
         </div>
 
