@@ -15,9 +15,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "The Story — Hephaestus Code",
+  title: "The Story \u2014 Hephaestus Code",
   description:
-    "How Hephaestus Code was built — from leaked Claude prompts to a Perplexity Space to a website it built for itself.",
+    "How Hephaestus Code was built \u2014 from leaked Claude prompts to a Perplexity Space to a website it built for itself.",
 };
 
 const buildSteps = [
@@ -25,7 +25,7 @@ const buildSteps = [
     icon: Code2,
     color: "#F97316",
     title: "Get the raw material",
-    body: "Sourced Claude's actual system prompts from a public GitHub repo of leaked Anthropic prompts. This gave a ground truth for how Opus 4.6 is instructed to reason: intellectual curiosity, honesty over validation, calibrated confidence.",
+    body: "Sourced Claude\u2019s actual system prompts from a public GitHub repo of leaked Anthropic prompts. This gave a ground truth for how Opus 4.6 is instructed to reason: intellectual curiosity, honesty over validation, calibrated confidence.",
     link: {
       label: "asgeirtj/system_prompts_leaks",
       href: "https://github.com/asgeirtj/system_prompts_leaks/tree/main/Anthropic",
@@ -131,8 +131,8 @@ export default function Story() {
             <div>
               <h2 className="font-bold text-lg mb-2">The idea</h2>
               <p className="text-zinc-400 text-sm leading-relaxed">
-                What if you could get Claude Code’s engineering discipline — Plan
-                Mode, structured implementation, GitHub-native workflows — inside
+                What if you could get Claude Code&rsquo;s engineering discipline &mdash; Plan
+                Mode, structured implementation, GitHub-native workflows &mdash; inside
                 Perplexity, with its live web search and GitHub MCP connector?
                 No API key. No local tool. Just a Perplexity Education Pro
                 subscription and a Spaces account.
@@ -204,7 +204,7 @@ export default function Story() {
             </p>
           </div>
           <p className="text-zinc-500 text-xs mt-3">
-            SYSTEM_PROMPT.md is uploaded to the Space’s files. On every conversation,
+            SYSTEM_PROMPT.md is uploaded to the Space&rsquo;s files. On every conversation,
             the AI reads it in full before responding.
           </p>
         </div>
@@ -215,10 +215,10 @@ export default function Story() {
             <h2 className="text-xl font-bold text-zinc-200">Then it built its own website</h2>
           </div>
           <p className="text-zinc-400 text-sm leading-relaxed mb-8">
-            The website you’re reading right now was built entirely by Hephaestus Code —
-            using its own GitHub MCP tools, Plan Mode workflow, and iterative commits —
+            The website you&rsquo;re reading right now was built entirely by Hephaestus Code &mdash;
+            using its own GitHub MCP tools, Plan Mode workflow, and iterative commits &mdash;
             in the same Perplexity conversation that triggered this rebrand.
-            Here’s how that conversation went.
+            Here&rsquo;s how that conversation went.
           </p>
 
           <div className="relative">
@@ -245,7 +245,7 @@ export default function Story() {
                         className="text-[10px] font-bold uppercase tracking-widest mt-0.5 flex-shrink-0"
                         style={{ color: event.isMeta ? "#FBBF24" : "#F97316" }}
                       >
-                        H⦯
+                        HC
                       </span>
                       <p className="text-sm text-zinc-400 leading-relaxed">{event.result}</p>
                     </div>
