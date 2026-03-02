@@ -15,9 +15,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "The Story \u2014 Hephaestus Code",
+  title: "The Story — Hephaestus Code",
   description:
-    "How Hephaestus Code was built \u2014 from leaked Claude prompts to a Perplexity Space to a website it built for itself.",
+    "How Hephaestus Code was built — from leaked Claude prompts to a Perplexity Space to a website it built for itself.",
 };
 
 const buildSteps = [
@@ -131,8 +131,8 @@ export default function Story() {
             <div>
               <h2 className="font-bold text-lg mb-2">The idea</h2>
               <p className="text-zinc-400 text-sm leading-relaxed">
-                What if you could get Claude Code&rsquo;s engineering discipline &mdash; Plan
-                Mode, structured implementation, GitHub-native workflows &mdash; inside
+                What if you could get Claude Code’s engineering discipline — Plan
+                Mode, structured implementation, GitHub-native workflows — inside
                 Perplexity, with its live web search and GitHub MCP connector?
                 No API key. No local tool. Just a Perplexity Education Pro
                 subscription and a Spaces account.
@@ -204,7 +204,7 @@ export default function Story() {
             </p>
           </div>
           <p className="text-zinc-500 text-xs mt-3">
-            SYSTEM_PROMPT.md is uploaded to the Space&rsquo;s files. On every conversation,
+            SYSTEM_PROMPT.md is uploaded to the Space’s files. On every conversation,
             the AI reads it in full before responding.
           </p>
         </div>
@@ -215,10 +215,10 @@ export default function Story() {
             <h2 className="text-xl font-bold text-zinc-200">Then it built its own website</h2>
           </div>
           <p className="text-zinc-400 text-sm leading-relaxed mb-8">
-            The website you&rsquo;re reading right now was built entirely by Hephaestus Code &mdash;
-            using its own GitHub MCP tools, Plan Mode workflow, and iterative commits &mdash;
+            The website you’re reading right now was built entirely by Hephaestus Code —
+            using its own GitHub MCP tools, Plan Mode workflow, and iterative commits —
             in the same Perplexity conversation that triggered this rebrand.
-            Here&rsquo;s how that conversation went.
+            Here’s how that conversation went.
           </p>
 
           <div className="relative">

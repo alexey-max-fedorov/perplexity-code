@@ -22,8 +22,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-zinc-500 text-xs">A Claude Code&ndash;inspired assistant built on Perplexity Spaces.</p>
-          <p className="text-zinc-600 text-xs">&copy; 2026 Alexey Fedorov. All rights reserved.</p>
+          <p className="text-zinc-500 text-xs">A Claude Code–inspired assistant built on Perplexity Spaces.</p>
+          <p className="text-zinc-600 text-xs">© 2026 Alexey Fedorov. All rights reserved.</p>
         </div>
       </div>
     </footer>
