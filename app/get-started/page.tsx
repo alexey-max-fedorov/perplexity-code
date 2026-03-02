@@ -38,7 +38,7 @@ export default function GetStarted() {
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 leading-tight">
             Get Started with
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F97316] via-[#4EE0B5] to-[#F97316]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F97316] via-[#FBBF24] to-[#F97316]">
               Hephaestus Code
             </span>
           </h1>
@@ -150,7 +150,7 @@ export default function GetStarted() {
                     Go to{" "}
                     <span className="text-white font-medium">Upload Files</span>{" "}
                     in your Space and upload{" "}
-                    <code className="text-[#4EE0B5] bg-[#4EE0B5]/10 px-1.5 py-0.5 rounded text-xs">
+                    <code className="text-[#FBBF24] bg-[#FBBF24]/10 px-1.5 py-0.5 rounded text-xs">
                       SYSTEM_PROMPT.md
                     </code>{" "}
                     from this repo.
@@ -170,10 +170,10 @@ export default function GetStarted() {
         </div>
 
         {/* Done banner */}
-        <div className="p-6 rounded-2xl bg-[#4EE0B5]/5 border border-[#4EE0B5]/20 flex items-center gap-4 mb-16">
-          <CheckCircle2 className="w-6 h-6 text-[#4EE0B5] flex-shrink-0" />
+        <div className="p-6 rounded-2xl bg-[#4ADE80]/5 border border-[#4ADE80]/20 flex items-center gap-4 mb-16">
+          <CheckCircle2 className="w-6 h-6 text-[#4ADE80] flex-shrink-0" />
           <div>
-            <p className="font-semibold text-[#4EE0B5]">That’s it — your Space is ready.</p>
+            <p className="font-semibold text-[#4ADE80]">That’s it — your Space is ready.</p>
             <p className="text-zinc-400 text-sm mt-0.5">
               Start a conversation in your Space to use Hephaestus Code.
             </p>
@@ -192,7 +192,7 @@ export default function GetStarted() {
                 Perplexity Spaces has a character limit on the system prompt
                 field. The full prompt (~34,000 characters) exceeds it, so it
                 lives in{" "}
-                <code className="text-[#4EE0B5] bg-[#4EE0B5]/10 px-1.5 py-0.5 rounded text-xs">
+                <code className="text-[#FBBF24] bg-[#FBBF24]/10 px-1.5 py-0.5 rounded text-xs">
                   SYSTEM_PROMPT.md
                 </code>{" "}
                 and the Space is instructed to read it on every conversation.

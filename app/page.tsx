@@ -12,7 +12,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
           {/* Background Glow */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-gradient-to-br from-[#F97316]/30 to-[#4EE0B5]/20 blur-[80px] md:blur-[120px] -z-10 animate-float" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-gradient-to-br from-[#F97316]/30 to-[#FBBF24]/20 blur-[80px] md:blur-[120px] -z-10 animate-float" />
 
           <div className="max-w-7xl mx-auto px-6 text-center">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[#4ADE80] text-[10px] md:text-xs font-medium mb-6 animate-bounce-subtle">
@@ -25,7 +25,7 @@ export default function Home() {
 
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6 max-w-4xl mx-auto leading-[1.1]">
               Claude Code, <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F97316] via-[#4EE0B5] to-[#F97316] animate-gradient-flow">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F97316] via-[#FBBF24] to-[#F97316] animate-gradient-flow">
                 in Perplexity.
               </span>
             </h1>
