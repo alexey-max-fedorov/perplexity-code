@@ -21,7 +21,7 @@ export default function Home() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#4ADE80] opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-[#4ADE80]"></span>
               </span>
-              Includes Plan Mode and other capabilities
+              Released Today
             </div>
 
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6 max-w-4xl mx-auto leading-[1.1]">
@@ -32,7 +32,15 @@ export default function Home() {
             </h1>
 
             <p className="text-zinc-400 text-base md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed px-4 md:px-0">
-              Created by Alexey Fedorov
+              Created by{" "}
+              <a
+                href="https://www.instagram.com/alexeyfedorov._"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-zinc-300 hover:text-white transition-colors underline underline-offset-2"
+              >
+                Alexey Fedorov
+              </a>
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
